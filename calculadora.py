@@ -1,6 +1,6 @@
 num1 = int(input("numero 1: ")) 
 num2 = int(input("numero 2: ")) 
-
+num2 = print("Print")
 valor = 0
 while True:
     print("""seleccione opcion
@@ -24,6 +24,7 @@ while True:
     if valor == 4:
         print("la division es",num1/num2)
         break;
+        print("Hola")
     else:
         print("Opcion incorrecta")
         break;
